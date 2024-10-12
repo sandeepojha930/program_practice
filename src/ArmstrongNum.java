@@ -1,8 +1,7 @@
 public class ArmstrongNum {
     public static void main(String[] args) {
         int num = 153;
-        int rem, originalNum, sum = 0;
-        originalNum = num;
+        int rem, originalNum=num, sum = 0;
         while (num != 0){
             rem  = num%10;
             sum += Math.pow(rem, 3);
